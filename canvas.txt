@@ -1,0 +1,20 @@
+
+Four Essential Skills for Any HTML5 Canvas Piece:
+    1 - Creating and Resizing 
+    2 - Drawing Elements
+    3 - Animating Elements
+    4 - Interacting with Elements
+
+Canvas Objects:
+    1 - Rectangles (c.fillRect())
+
+    2 - Lines ( c.beginPath() => c.moveTo(x, y) => c.strokeStyle = "rgba() => "stroke(); )
+        c.beginPath() - Sem parametros, é onde definimos o inicio do desenho do canvas;
+        c.moveTo(x, y) - 2 parametros, que é onde definimos a localização do inicio do dezendo. Em seguida definimos outro "moveTo" que é até onde irá a reta.
+        c.strokeStyle - Definimos estilos css para o dezenho (cores);
+        c.stroke() - sem parametros, é aqui onde criamos definitivamente o desenho para aparecer na tela.
+        
+    3 - Arcs / Circles
+    4 - Bezier Curves
+    5 - Images
+    6 - Text
